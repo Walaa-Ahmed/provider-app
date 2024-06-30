@@ -15,7 +15,7 @@
 // import '../features/cart/presentation/cart_view.dart';
 // import '../features/cart/provider/cart_provider.dart';
 // import '../features/chat_support/presentation/chat_support_view.dart';
-// import '../features/home/presentation/home_screen.dart';
+// import '../features/home/presentation/account_setup.dart';
 // import 'package:provider/provider.dart';
 //
 // class BottomNavBar extends StatefulWidget {

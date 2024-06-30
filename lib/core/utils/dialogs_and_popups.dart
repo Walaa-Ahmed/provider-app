@@ -4,15 +4,12 @@ import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:provider_app/core/utils/shared_widgets/text_widget.dart';
 import 'package:provider_app/core/utils/styles.dart';
 import '../constants/app_color.dart';
-import '../theme/app_color/app_colors.dart';
-import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:fl_toast/fl_toast.dart';
 import 'package:modal_bottom_sheet/modal_bottom_sheet.dart';
 import 'package:flutter/material.dart' hide ModalBottomSheetRoute;
 
 import 'package:flutter_animated_dialog/flutter_animated_dialog.dart';
 
-import 'locator.dart';
 
 
 class DialogsAndPopUp {
@@ -77,7 +74,7 @@ class DialogsAndPopUp {
                   textAlign: TextAlign.center,
                   maxLines: 3,
                 ),
-                SizedBox(
+                const SizedBox(
                   height: 20,
                 ),
                 Expanded(child: content)
@@ -168,7 +165,7 @@ class DialogsAndPopUp {
                 padding: EdgeInsets.fromLTRB(10, title == '' ? 0 : 10, 10, 0),
                 child: Row(
                   children: [
-                    Spacer(
+                    const Spacer(
                       flex: 3,
                     ),
                     Center(
@@ -177,7 +174,7 @@ class DialogsAndPopUp {
                         style: Styles.kBold16,
                       ),
                     ),
-                    Spacer(
+                    const Spacer(
                       flex: 2,
                     ),
                     if (hasCloseIcon == true)

@@ -1,5 +1,4 @@
 import 'package:awesome_bottom_bar/awesome_bottom_bar.dart';
-import 'package:awesome_bottom_bar/tab_item.dart';
 import 'package:flutter/material.dart';
 
 import '../../constants/app_color.dart';
@@ -44,27 +43,27 @@ class _BottomNavBarState extends State<BottomNavBar> {
     // const SavedView(),
     // const SideMenuView()
     Container(
-      child: Center(
+      child: const Center(
         child: Text("Tab"),
       ),
     ),
     Container(
-      child: Center(
+      child: const Center(
         child: Text("Tab"),
       ),
     ),
     Container(
-      child: Center(
+      child: const Center(
         child: Text("Tab"),
       ),
     ),
     Container(
-      child: Center(
+      child: const Center(
         child: Text("Tab"),
       ),
     ),
     Container(
-      child: Center(
+      child: const Center(
         child: Text("Tab"),
       ),
     ),

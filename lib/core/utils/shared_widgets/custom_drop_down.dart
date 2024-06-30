@@ -51,7 +51,7 @@ class _CustDropDownState extends State<CustDropDown>
     return   Center(
         child: Container(
           height: 50,
-          padding: EdgeInsets.all(0),
+          padding: const EdgeInsets.all(0),
           child: DropdownSearch<String>(
 
             //autoValidateMode: AutovalidateMode.always,
@@ -60,7 +60,7 @@ class _CustDropDownState extends State<CustDropDown>
                 showSelectedItems: true,
                 showSearchBox: true,
                fit: FlexFit.loose,
-                menuProps: MenuProps(backgroundColor:Colors.white, ),
+                menuProps: const MenuProps(backgroundColor:Colors.white, ),
                 searchFieldProps: const TextFieldProps(
                     padding: EdgeInsets.symmetric(horizontal: 8),
                     decoration: InputDecoration(
@@ -81,12 +81,12 @@ class _CustDropDownState extends State<CustDropDown>
                   return  Container(
                     margin: const EdgeInsets.symmetric(horizontal: 8),
                     decoration: !isSelected
-                        ? BoxDecoration(
+                        ? const BoxDecoration(
                       border: Border(bottom: BorderSide(color: kLightGrey)),
                       //  borderRadius: BorderRadius.circular(5),
                       color: Colors.white,
                     )
-                        : BoxDecoration(
+                        : const BoxDecoration(
                       //  border: Border.all(color: Theme.of(context).primaryColor),
                       //  borderRadius: BorderRadius.circular(5),
                       color: kSecondaryColor,
@@ -104,7 +104,7 @@ class _CustDropDownState extends State<CustDropDown>
             dropdownDecoratorProps: DropDownDecoratorProps(
               textAlignVertical: TextAlignVertical.center,
               dropdownSearchDecoration: InputDecoration(
-                contentPadding: EdgeInsets.symmetric(horizontal: 8),
+                contentPadding: const EdgeInsets.symmetric(horizontal: 8),
                   hintText: widget.hintText??"",
                   hintStyle: Styles.kMedium14,
                   enabledBorder: OutlineInputBorder(

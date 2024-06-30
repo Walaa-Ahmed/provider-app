@@ -111,7 +111,7 @@ dynamic hasError = false;
                 ),
               focusedBorder:  OutlineInputBorder(
                 borderRadius:
-                BorderRadius.all(Radius.circular(7)),
+                const BorderRadius.all(Radius.circular(7)),
                 borderSide: BorderSide(
                     width: 2,
                     color: hasError != null? kLightGrey : kPrimaryColor
@@ -126,7 +126,7 @@ dynamic hasError = false;
              prefixIcon:
               widget.icon!=null? Icon(widget.icon,
                   color:Colors.grey)
-                  :SizedBox(height: 0,),
+                  :const SizedBox(height: 0,),
               suffixIcon: widget.password??false?InkWell(
                 onTap: (){
                   setState(() {

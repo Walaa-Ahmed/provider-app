@@ -36,7 +36,7 @@ class SharedPreferencesUtils {
 
   removeUserData() {
     _prefs!.clear();
-    _prefs!.remove(kUserSaved);
+    _prefs.remove(kUserSaved);
   }
 
   setDouble(String key, double value) {

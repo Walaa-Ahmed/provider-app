@@ -1,10 +1,8 @@
-import 'dart:convert';
 import 'package:url_launcher/url_launcher.dart';
 
 //import 'package:intl/intl.dart';
 
 
-import 'package:modal_bottom_sheet/modal_bottom_sheet.dart';
 import 'package:flutter/material.dart' hide ModalBottomSheetRoute;
 
 
@@ -192,9 +190,10 @@ class MethodHelpers {
       hour = orderPeriodIsEvening ? (int.parse(hour) + 12).toString() : hour;
       Duration currentTimeZone = DateTime.now().timeZoneOffset;
       int actualTime = int.parse(hour) + currentTimeZone.inHours;
-      return '${day}-${month}-${year}  ${actualTime}:${minute}';
-    } else
+      return '$day-$month-$year  $actualTime:$minute';
+    } else {
       return time;
+    }
   }
 
 

@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 import 'package:provider/provider.dart';
-import 'package:provider_app/features/home/home_screen.dart';
+import 'package:provider_app/features/home/presentation/account_setup.dart';
 
 import 'core/base/base_provider.dart';
 import 'core/utils/locator.dart';
@@ -63,7 +63,7 @@ class MyApp extends StatelessWidget {
               colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
               useMaterial3: true,
             ),
-            home: const HomeScreen()),
+            home: AccountSetup()),
       ),
     );
   }

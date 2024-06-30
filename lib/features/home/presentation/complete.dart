@@ -4,6 +4,6 @@ class Complete extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return const Center(child: Text("Complete"));
+    return  Scaffold(body: Center(child: Text("Complete")));
   }
 }

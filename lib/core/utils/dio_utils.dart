@@ -1,10 +1,8 @@
-import 'dart:io';
 
 import 'package:dio/dio.dart';
 
 import 'package:flutter/material.dart';
 import 'package:dio_cache_interceptor/dio_cache_interceptor.dart';
-import 'locator.dart';
 
 class DioUtils {
   final Dio _dio;

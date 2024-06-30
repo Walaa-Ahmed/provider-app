@@ -17,7 +17,7 @@ class BackButtonWidget extends StatelessWidget {
         },
         child: Container(
           // width: 30,
-            padding: EdgeInsets.all(4),
+            padding: const EdgeInsets.all(4),
             decoration: BoxDecoration(
                 color: withBackground ? Colors.white.withOpacity(1) : null,
                 borderRadius: BorderRadius.circular(8.r)),

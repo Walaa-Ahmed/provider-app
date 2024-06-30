@@ -1,7 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_rating_bar/flutter_rating_bar.dart';
 
-import '../../constants/app_color.dart';
 
 class SharedRating extends StatelessWidget {
   const SharedRating(
@@ -23,7 +22,7 @@ class SharedRating extends StatelessWidget {
       ratingWidget: RatingWidget(
         full:
             //Image.asset("assets/images/star.png"),
-            Icon(Icons.star, color: Colors.amber),
+            const Icon(Icons.star, color: Colors.amber),
         half:
             //Image.asset("assets/images/star.png"),
             const Icon(Icons.star_half, color: Colors.amber),

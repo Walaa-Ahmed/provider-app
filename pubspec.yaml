@@ -67,6 +67,8 @@ dependencies:
   introduction_slider: ^2.0.1
   image_picker:
 
+  sqflite: any
+  path: any
 dev_dependencies:
   flutter_test:
     sdk: flutter

@@ -22,7 +22,7 @@ class CustomEmptyList extends StatelessWidget {
 
     return Column(
       children: [
-        SizedBox(height: 75,),
+        const SizedBox(height: 75,),
         lottie.Lottie.asset( lottieFile ?? "assets/images/empty.json"
         ,height: size.height * .3,fit: BoxFit.fill),
      //   Image.asset("assets/images/empty.json",height: size.height * .3,fit: BoxFit.fill,),
